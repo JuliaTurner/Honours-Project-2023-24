@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Project </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body onload="getValue()">
+
+<script type="text/javascript" src="javascript.js"> </script> 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js">
+</script>
+<script type="text/javascript" src="javascript.js">
+
+function getValue() {
+  var array = {};
+  while (array.length != 8) {
+    const list = prompt("Please provide a comma-separated list of eight values: ");
+    var array = list.split(",").map(Number);
+  }
+  height_array(array);
+}
+
+</script>
+
+<div id="animation">
+
+  <h1> Quicksort </h1>
+  <br><br><br><br><br>
+  
+  <div id="area">
+  
+  <div id="square1"> 1 </div>
+  <div id="square2"> 2</div>
+  <div id="square3"> 3</div>
+  <div id="square4"> 4</div>
+  <div id="square5"> 5</div>
+  <div id="square6"> 6</div>
+  <div id="square7"> 7</div>
+  <div id="square8"> 8</div>
+
+	</div>
+
+  <br><br><br><br><br><br>  <br><br><br><br><br><br>
+
+  <button id="button" onclick="divide()">
+    Divide </button>
+  <button id="button" onclick="aniConquer()"> Conquer </button>
+  <button id="button" onclick="aniSolve()"> Solve </button>
+  <button id="button" onclick="reset()"> Reset </button>
+  <button onclick="getValue()"> New List </button>
+
+</div>
+
+<div id="aux"> </div>
+<div id="partition"> </div>
+
+
+</body>
+
+</html>

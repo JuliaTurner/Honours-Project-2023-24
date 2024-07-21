@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+	background-color: black;
+}
+
+#square1 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+
+#square2 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+
+#square3 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+#square4 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+#square5 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+#square6 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+#square7 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+#square8 {
+  width: 50px;
+  height: 50px;
+  background-color: #a020f0;
+  margin: 5px;
+  /*display: inline;*/
+  float: left;
+  border-radius: 5px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: lilac;
+  border-radius: 20px;
+  color: purple;
+}
+
+#button {
+}
+
+h1 {
+  color: white;
+  float: left;
+}
+
+#aux {
+	color: black;
+}
+
+#partition {
+	color: black;
+}
+
